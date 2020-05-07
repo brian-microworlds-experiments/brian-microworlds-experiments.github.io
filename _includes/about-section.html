@@ -9,8 +9,23 @@
     </div>
     <div class="row">
       <div class="col-12 text-center">
-        <div class="btn btn-primary font-tertiary btn-sm"><a href="https://mitmedialab.github.io/prg-extension-boilerplate/microworlds/">Play with All Blocks!</a></div>
-        <br>
+        {% for item in site.data.settings.microworlds %}
+        <div class="col-lg-4 col-6 mb-4 shuffle-item">
+            {% if item.image %}
+              <div class="position-relative rounded hover-wrapper">
+                <img src="{{ site.baseurl }}/projects/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+                <div class="hover-overlay">
+                  <div class="hover-content">
+                    <a class="btn btn-primary btn-sm mb-3" href="{{site.data.settings.create-base-url}}?microworld={{item.microworld}}&project={{site.data.settings.projects-base-url}}{{ item.url }}">Open Microworld!</a>
+                  </div>
+                </div>
+              </div>
+            {% else %}
+          <div class="btn btn-primary font-tertiary btn-sm"><a href="https://mitmedialab.github.io/prg-extension-boilerplate/microworlds/">Play with All Blocks!</a></div>
+          <br>
+          {% endif %}
+        </div>
+        {% endfor %}
         <br>
         <div class="btn btn-primary font-tertiary btn-sm"><a href="https://mitmedialab.github.io/prg-extension-boilerplate/microworlds/?microworld=face">Nose Control Microworld</a></div>
         <br>
