@@ -7,8 +7,12 @@
 <!--        <a href="{{ site.data.settings.blurb-btn-link }}" class="btn btn-transparent">{{ site.data.settings.blurb-btn-name }}</a>-->
       </div>
     </div>
-    <div class="row">
+  <div class="row">
       <div class="col-12 text-center">
+          <h3 class="section-title">Try Some Microworlds!</h3>
+      </div>
+  </div>
+    <div class="row shuffle-wrapper">
         {% for item in site.data.settings.microworlds %}
         <div class="col-lg-4 col-6 mb-4 shuffle-item">
             {% if item.image %}
@@ -26,16 +30,15 @@
           {% endif %}
         </div>
         {% endfor %}
-        <br>
-        <div class="btn btn-primary font-tertiary btn-sm"><a href="https://mitmedialab.github.io/prg-extension-boilerplate/microworlds/?microworld=face">Nose Control Microworld</a></div>
-        <br>
-        <br>
-        <div class="btn btn-primary font-tertiary btn-sm"><a href="https://mitmedialab.github.io/prg-extension-boilerplate/microworlds/?microworld=face">Face Expression Microworld</a></div>
-        <br>
-        <br>
-        <div class="btn btn-primary font-tertiary btn-sm"><a href="{{site.data.settings.create-base-url}}?microworld=teachableDog&project={{site.data.settings.projects-base-url}}TeachableDog.sb3">Teachable Dog Microworld</a></div>
+<!--        <br>-->
+<!--        <div class="btn btn-primary font-tertiary btn-sm"><a href="https://mitmedialab.github.io/prg-extension-boilerplate/microworlds/?microworld=face">Nose Control Microworld</a></div>-->
+<!--        <br>-->
+<!--        <br>-->
+<!--        <div class="btn btn-primary font-tertiary btn-sm"><a href="https://mitmedialab.github.io/prg-extension-boilerplate/microworlds/?microworld=face">Face Expression Microworld</a></div>-->
+<!--        <br>-->
+<!--        <br>-->
+<!--        <div class="btn btn-primary font-tertiary btn-sm"><a href="{{site.data.settings.create-base-url}}?microworld=teachableDog&project={{site.data.settings.projects-base-url}}TeachableDog.sb3">Teachable Dog Microworld</a></div>-->
 <!--        <div class="btn btn-primary font-tertiary btn-sm"><a href="https://mitmedialab.github.io/prg-extension-boilerplate/microworlds/">Body Microworld</a></div>-->
-      </div>
     </div>
   </div>
 </section>
