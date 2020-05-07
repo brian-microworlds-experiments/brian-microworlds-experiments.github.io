@@ -1,19 +1,17 @@
 #-------------------------------
 # General Site Settings
 
-title: Dancing with AI - A Curriculum on Designing Interactive AI Systems
+title: Microworlds Experiments
 logo: logo.png
 email: tbd@mit.edu
 phone: TBD
 address: TBD
 
 menu:
-- {name: Curriculum, link: '/curriculum'}
-- {name: About, link: '/about'}
-- {name: Create!, link: 'https://mitmedialab.github.io/prg-extension-boilerplate/create/'}
+- {name: Create!, link: 'https://mitmedialab.github.io/prg-extension-boilerplate/microworlds/'}
 
-create-base-url: https://mitmedialab.github.io/prg-extension-boilerplate/create/
-projects-base-url: https://dancingwithai.media.mit.edu/projects/
+create-base-url: https://mitmedialab.github.io/prg-extension-boilerplate/microworlds/
+projects-base-url: https://brian-microworlds-experiments.github.io/projects/
 
 #-------------------------------
 # Google Analytics Section
@@ -36,7 +34,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Dancing <br> with AI <br> <font size=6>Designing Interactive AI Systems</font>
+  hero-title: Microworlds Experiments
 
 social:
 #- {icon: "ti-facebook", link: "#"}
@@ -50,10 +48,7 @@ social:
 
 # About Section
 blurb:
-  A middle school project-based curriculum about making interactive, movement-focused AI systems.
-
-#  Physical movement is one of the most engaging ways to interact with AI systems, but it’s rare today to see motion integrated with K-12 AI curricula. Beyond that, many middle schoolers have passionate interests in dance, art, physical movement in sports, and video games that involve physical motion (Beat Saber, Just Dance) which aren’t easy to build on in the typical creative learning environments found in classrooms. There is an exciting opportunity to use body movement as an entryway to teaching interesting, less-explored concepts in AI, particularly through active learning by having students design interactions with AI, explore different representations of data, and train image- and pose-recognition models.
-
+  Experiments with Hand, Facial Expression, Pose, & Google Teachable Machine blocks
 
 #blurb-btn-link: '/about'
 #blurb-btn-name: know more
@@ -147,130 +142,6 @@ services:
     active: # Add true to select section
   }
 
-# Curriculum
-curriculum-items:
-  - title: Hype Day! Intro to AI
-    links:
-        - name: "Teacher Slides"
-          url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
-        - name: "Teacher Script"
-          url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
-        - name: "Charades (Printable Cards)"
-          url: "https://docs.google.com/document/d/1Y9Z44-5NDcS5cumYfeTEAw9xtL2DX0D99-r_h9GBZPY/edit"
-        - name: "Charades (Online Generator)"
-          url: "http://movement-charades.glitch.me/"
-
-  - title: Training Image + Pose Models
-    links:
-        - name: "Teacher Slides"
-          url: "https://docs.google.com/presentation/d/1yUOYuGJSXAIsc-XmoPkpdkpiAML69wmQTaFvT8nV8h8/edit?usp=sharing"
-        - name: "Teacher Script"
-          url: "https://docs.google.com/document/d/14FzjNUhx6TqavIkkkcACtDI1-W9B85F5h3fq_S9AYfw/edit?usp=sharing"
-    resource_links:
-      - name: "Teachable Machine"
-        url: "https://teachablemachine.withgoogle.com/"
-    images:
-        - image: "cat-laptop-train.gif"
-          caption: "Training a Teachable Machine Model"
-        - image: "dog.gif"
-          caption: "Google <br>Teachable Machine"
-  - title: Posenet and Facial Expressions
-    links:
-        - name: "Teacher Slides"
-          url: "https://docs.google.com/presentation/d/1sGvP9pR571TgyIOdfW889REXZ0wvL8dRuQCTWvMMvgM/edit?usp=sharing"
-        - name: "Teacher Script"
-          url: "https://docs.google.com/document/d/1oWskcucRLKt2ujWd7Ei7vleu4n-S0Q54o9GXHw6Qqq8/edit?usp=sharing"
-    resource_links:
-        - name: "Coding: Introduction Tutorial"
-          url: "https://mitmedialab.github.io/prg-extension-boilerplate/create/?tutorial=getStarted"
-        - name: "Coding: Imagine a World Tutorial"
-          url: "https://mitmedialab.github.io/prg-extension-boilerplate/create/?tutorial=imagine"
-    projects:
-        - image: "circle-drawing.gif"
-          url: "circle-drawing.sb3"
-        - image: "hand-spray-paint.gif"
-          url: "hand-spray-paint.sb3"
-        - image: "be-a-pirate.gif"
-          url: "Pirate Face.sb3"
-        - image: "EyelashButterfly.gif"
-          url: "EyelashButterfly.sb3"
-        - image: "EmotionJellyfish.gif"
-          url: "EmotionJellyfish.sb3"
-          gfycat: "GlossyUnripeFireant"
-        - image: "bird-mouth.gif"
-          url: "ChirpBird.sb3"
-        - image: "ChirpBirdForever.gif"
-          url: "ChirpBirdForever.sb3"
-          video: "ChirpBirdForever.webm"
-        - image: "WatermelonNom.gif"
-          url: "CatcherModel.sb3"
-          gfycat: "rawdampcob"
-        - image: "FingerPuppetShow.gif"
-          url: "FingerPuppetShow.sb3"
-          gfycat: "sophisticatedqueasycrustacean"
-        - image: "ShoulderFriend.gif"
-          url: "ShoulderFriend.sb3"
-          gfycat: "AdvancedInfatuatedDwarfmongoose"
-        - image: "ThumbsUpSpider.gif"
-          url: "ThumbsUpSpider.sb3"
-          gfycat: "DirtyInbornIrrawaddydolphin"
-        - image: "YayGrr.gif"
-          url: "YayGrr.sb3"
-          gfycat: "DirtyInbornIrrawaddydolphin"
-        - image: "RainbowVolleyball.gif"
-          url: "RainbowVolleyball.sb3"
-          gfycat: "yellowishrashatlanticblackgoby"
-        - image: "FingerFoodNinja.gif"
-          url: "FingerFoodNinja.sb3"
-          gfycat: "SlushySophisticatedAlbatross"
-
-  - title: Making Interactive AI Systems
-    links:
-        - name: "Teacher Slides"
-          url: "https://docs.google.com/presentation/d/1fTjIZ51WpfjdJ0Cd2okxa48X7ButRY_uq53C8Aq5VH4/edit?usp=sharing"
-        - name: "Teacher Script"
-          url: "https://docs.google.com/document/d/1M3D2MtPikfYSaIu6GU8KYtcfJQW4nI_T1HViD4IM9u8/edit?usp=sharing"
-    projects:
-      - image: "WhichBin.gif"
-        url: "WhichBin.sb3"
-        gfycat: "spotlesspleasantburro"
-      - image: "CatcherModel.gif"
-        url: "CatcherModel.sb3"
-        gfycat: "UnselfishMiserableCoelacanth"
-      - image: "SnakeGame.gif"
-        url: "SnakeGame.sb3"
-        gfycat: "ShorttermFriendlyFairybluebird"
-      - image: "shydog.gif"
-        url: "NewShyDog.sb3"
-      - image: "bunnyears.gif"
-        url: "bunnyears.sb3"
-      - image: "nocorona.gif"
-        url: "nocorona.sb3"
-      - image: "posturechecker.gif"
-        url: "posturechecker.sb3"
-
-
-  - title: Capstone Project Bazaar!
-    links:
-        - name: "Teacher Slides"
-          url: "https://docs.google.com/presentation/d/1RMBkWa80dO1q1Q8iTjUoMuMzSTJQrihJH_45PGvaFZA/edit?usp=sharing"
-        - name: "Teacher Script"
-          url: "https://docs.google.com/document/d/1QzuINyJABgQNbf1tW6jCv4V0hRbynO-nJ6o_43Wt9do/edit?usp=sharing"
-
-
-course-wide-materials:
-  - name: "Student Journal"
-    url: "https://docs.google.com/presentation/d/1ILgv4ImxyDEvrME0M3CViTqjApBKO4nLvuy0VV02XWg/edit"
-  - name: "Block Cards"
-    url: "https://docs.google.com/presentation/d/1ILgv4ImxyDEvrME0M3CViTqjApBKO4nLvuy0VV02XWg/edit"
-  - name: "Project Idea Cards"
-    url: "https://docs.google.com/presentation/d/1ILgv4ImxyDEvrME0M3CViTqjApBKO4nLvuy0VV02XWg/edit"
-
-#-------------------------------
-# Portfolio (Section and Page)
-
-# Portfolio Home Section
-# TODO: maybe just collect these from curriculum days? or feature just a few :D
 all-projects:
   - image: "shydog.gif"
     url: "NewShyDog.sb3"
