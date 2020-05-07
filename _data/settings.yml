@@ -146,7 +146,7 @@ microworlds:
   - image: "shydog.gif"
     url: "TeachableDog.sb3"
     microworld: "teachableDog"
-  - image: "be-a-pirate.gif"
+  - image: "ShoulderFriend.gif"
     url: "FaceAttach.sb3"
     microworld: "faceAttach"
 
